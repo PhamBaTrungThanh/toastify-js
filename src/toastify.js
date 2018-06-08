@@ -77,7 +77,7 @@
       // Assigning gravity of element
       divElement.className += " " + this.options.gravity;
 
-      divElement.style.background = this.options.backgroundColor;
+      // divElement.style.background = this.options.backgroundColor;
 
       // Adding the toast message
       divElement.innerHTML = this.options.text;
